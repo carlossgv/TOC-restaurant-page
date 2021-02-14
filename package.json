@@ -1,0 +1,26 @@
+{
+  "name": "toc-restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant Page Project from The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlossgv/TOC-restaurant-page.git"
+  },
+  "author": "Carlos Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlossgv/TOC-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/carlossgv/TOC-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^2.0.3"
+  }
+}
