@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tabs-section {
+    display: flex;
+}
+
+.tab-selector {
+    margin: 1rem;
+}
+
