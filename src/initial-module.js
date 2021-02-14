@@ -17,20 +17,27 @@ const pageLoad = () => {
 
   const img = document.createElement('img');
   img.src =
-    'https://www.hotelfigueroa.com/wp-content/uploads/2018/11/Veranda-1000x667.jpg';
+    'https://cache.marriott.com/marriottassets/marriott/KNASI/knasi-travesia-restaurant-5586-hor-feat.jpg?downsize=1024px:*';
+  img.id = "restaurant-img"
 
   const title = document.createElement('h1');
-  title.innerHTML = lorem.generateWords(5);
+  title.innerHTML = 'Welcome to TOC Restaurant';
 
   const p = document.createElement('p');
   p.innerHTML = lorem.generateParagraphs(3);
 
   content.appendChild(img);
-  content.appendChild(title);
-  content.appendChild(p);
+
+  const infoDiv = document.createElement('div')
+  infoDiv.classList.add('info-div')
+
+  infoDiv.appendChild(title);
+  infoDiv.appendChild(p);
+
+  content.appendChild(infoDiv)
 
   // Create tabs
-  const tabsList = { menu: 'Menu', contacts: 'Contacts' };
+  const tabsList = { menu: 'Menu', contacts: 'Contact' };
 
   const completeTabs = document.createElement('div')
   completeTabs.classList.add('complete-tabs')
